@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Bhushan Upwanshi, SDET. Test automation for web, API and event-driven systems.">
+  <style>
+    .bg { fill: #f6f8fa; stroke: #d0d7de; }
+    .name { fill: #1f2328; font: 700 54px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+    .cat { fill: #8c959f; font: 600 30px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+    .tag { fill: #59636e; font: 400 22px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .eyebrow { fill: #1a7f37; font: 600 15px ui-monospace, "SF Mono", Consolas, monospace; letter-spacing: 2px; }
+    .chip { fill: #ffffff; stroke: #d0d7de; }
+    .chipt { fill: #1f2328; font: 500 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .term { fill: #ffffff; stroke: #d0d7de; }
+    .bar { fill: #eaeef2; }
+    .mono { font: 400 15px ui-monospace, "SF Mono", Consolas, monospace; }
+    .cmd { fill: #1f2328; }
+    .prompt { fill: #8250df; }
+    .ok { fill: #1a7f37; }
+    .file { fill: #59636e; }
+    .dim { fill: #8c959f; }
+  </style>
+  <rect class="bg" x="1" y="1" width="1278" height="298" rx="14"/>
+
+  <text class="eyebrow" x="56" y="92">SDET · PUNE, INDIA</text>
+  <text class="name" x="54" y="154">Bhushan Upwanshi</text>
+  <text class="cat" x="540" y="152">^..^</text>
+  <text class="tag" x="56" y="196">Test automation for web, API and event-driven systems</text>
+
+  <g transform="translate(56 222)">
+    <rect class="chip" x="0" y="0" width="104" height="34" rx="17"/><text class="chipt" x="52" y="22" text-anchor="middle">Playwright</text>
+    <rect class="chip" x="114" y="0" width="108" height="34" rx="17"/><text class="chipt" x="168" y="22" text-anchor="middle">TypeScript</text>
+    <rect class="chip" x="232" y="0" width="64" height="34" rx="17"/><text class="chipt" x="264" y="22" text-anchor="middle">Java</text>
+    <rect class="chip" x="306" y="0" width="128" height="34" rx="17"/><text class="chipt" x="370" y="22" text-anchor="middle">REST Assured</text>
+    <rect class="chip" x="444" y="0" width="72" height="34" rx="17"/><text class="chipt" x="480" y="22" text-anchor="middle">Kafka</text>
+    <rect class="chip" x="526" y="0" width="124" height="34" rx="17"/><text class="chipt" x="588" y="22" text-anchor="middle">Azure DevOps</text>
+  </g>
+
+  <g transform="translate(784 44)">
+    <rect class="term" x="0" y="0" width="440" height="212" rx="10"/>
+    <path class="bar" d="M10 0 H430 A10 10 0 0 1 440 10 V30 H0 V10 A10 10 0 0 1 10 0 Z"/>
+    <circle cx="20" cy="15" r="5.5" fill="#ff5f57"/>
+    <circle cx="38" cy="15" r="5.5" fill="#febc2e"/>
+    <circle cx="56" cy="15" r="5.5" fill="#28c840"/>
+    <text class="mono dim" x="220" y="20" text-anchor="middle" font-size="13">playwright-e2e-framework</text>
+    <g class="mono">
+      <text x="20" y="60"><tspan class="prompt">$</tspan><tspan class="cmd"> npm run test:e2e</tspan></text>
+      <text x="20" y="86"><tspan class="ok">  ✓</tspan><tspan class="file"> runner/login.spec.ts</tspan></text>
+      <text x="20" y="108"><tspan class="ok">  ✓</tspan><tspan class="file"> runner/inventory.spec.ts</tspan></text>
+      <text x="20" y="130"><tspan class="ok">  ✓</tspan><tspan class="file"> runner/checkout.spec.ts</tspan></text>
+      <text x="20" y="162"><tspan class="prompt">$</tspan><tspan class="cmd"> npm run test:standalone:tabs</tspan></text>
+      <text x="20" y="188"><tspan class="ok">  ✓</tspan><tspan class="file"> multi-window.journey.ts</tspan><tspan class="dim" dx="14">1 video</tspan></text>
+    </g>
+  </g>
+</svg>
